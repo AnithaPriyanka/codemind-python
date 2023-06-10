@@ -1,4 +1,9 @@
-h,m=map(int,input().split(":"))
-ang=abs((h*30)-(11/2)*m)
-res=360-ang
-print(min(ang,res))
+x = input()
+x = x.split(":")
+h = int(x[0])
+m = int(x[1])
+a = abs((30*h)-(11/2)*m)
+if a<180:
+    print(a)
+else:
+    print(360-a)
