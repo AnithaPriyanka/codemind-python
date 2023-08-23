@@ -1,4 +1,4 @@
-def bowl(a,s,n):
+def bowl(n,a,s):
     for i in range(n,0,-1):
         if s%i==0:
             return i
@@ -7,4 +7,4 @@ def bowl(a,s,n):
 n=int(input())
 a=list(map(int,input().split()))
 s=sum(a)
-print(bowl(a,s,n))
+print(bowl(n,a,s))
