@@ -1,6 +1,6 @@
-n = int(input())
-arr = list(map(int,input().split()))
+n=int(input())
+a=list(map(int,input().split()))
 for i in range(n):
-    if arr[i]%2==0:
-        s=arr[i]
+    if a[i]%2==0:
+        s=a[i]
 print(s)
